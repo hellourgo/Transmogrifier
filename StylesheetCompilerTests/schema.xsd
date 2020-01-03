@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:chrysalis attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLChrysalis" 
+           xmlns="https://www.transmogrifier.com/Chrysalis"
+           targetNamespace="https://www.transmogrifier.com/Chrysalis">
+
+  <xs:simpleType name="FieldId">
+    <xs:restriction base="xs:integer"/>
+  </xs:simpleType>
+  <xs:simpleType name="ChrysalisId">
+    <xs:restriction base="xs:integer"/>
+  </xs:simpleType>
+  <xs:simpleType name="FieldInputName">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:simpleType name="FieldDataType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="decimal(14,2)"/>
+      <xs:enumeration value="integer"/>
+      <xs:enumeration value="string"/>
+      <xs:enumeration value="path"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="FieldMaxLength">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="255"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="OutputName">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  
+  <xs:complexType name="KeyValue">
+    <xs:sequence>
+      <xs:element name="OutputName" type="OutputName" />
+      <xs:element name="FieldId" type="FieldId" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Key">
+    <xs:sequence>
+      <xs:element name="KeyValue" type="KeyValue" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Field">
+    <xs:sequence>
+      <xs:element name="InputName" type="FieldInputName" />
+      <xs:element name="DataType" type="FieldDataType" />
+      <xs:element minOccurs="0" name="MaxLength" type="FieldMaxLength" />
+    </xs:sequence>
+    <xs:attribute name="id" type="FieldId" use="required" />
+  </xs:complexType>
+  
+  <xs:complexType name="SubGroup">
+    <xs:sequence>
+      <xs:element name="Key" type="Key"/>
+      <xs:element name="Field" type="Field" minOccurs="0" maxOccurs="unbounded" />
+      <xs:element name="SubGroup" type="SubGroup" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Chrysalis">
+    <xs:sequence>
+      <xs:element name="SubGroup" type="SubGroup" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="ChrysalisId" use="required"/>
+  </xs:complexType>
+  
+  <xs:element name="Chrysalis" type="Chrysalis"/>
+  
+</xs:chrysalis>

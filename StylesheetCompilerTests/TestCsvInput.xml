@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<File>
+  <Record line="2">
+    <BusinessUnit>256</BusinessUnit>
+    <PurchaseOrderNumber>500062</PurchaseOrderNumber>
+    <LineNumber>1</LineNumber>
+    <Quantity>5000</Quantity>
+    <UnitPrice currency="USD" taxIncluded="true">0.05</UnitPrice>
+    <Description>I love eating toasted cheese and tuna sandwiches.</Description>
+  </Record>
+  <Record line="3">
+    <BusinessUnit>256</BusinessUnit>
+    <PurchaseOrderNumber>500062</PurchaseOrderNumber>
+    <LineNumber>2</LineNumber>
+    <Quantity>2</Quantity>
+    <UnitPrice currency="USD" taxIncluded="true">500</UnitPrice>
+    <Description>
+      She "
+      wrote him a long letter, but he didn't read it.
+    </Description>
+  </Record>
+  <Record line="5">
+    <BusinessUnit>256</BusinessUnit>
+    <PurchaseOrderNumber>500062</PurchaseOrderNumber>
+    <LineNumber>3</LineNumber>
+    <Quantity>90</Quantity>
+    <UnitPrice currency="USD">32.5</UnitPrice>
+    <Description>There was no ice cream in the freezer, nor did they have money to go to the store.</Description>
+  </Record>
+  <Record line="6">
+    <BusinessUnit>256</BusinessUnit>
+    <PurchaseOrderNumber>605523</PurchaseOrderNumber>
+    <LineNumber>1</LineNumber>
+    <Quantity>45.75</Quantity>
+    <UnitPrice currency="USD">75</UnitPrice>
+    <Description>Sometimes it is better to just walk away from things and go back to them later when you're in a better frame of mind.</Description>
+  </Record>
+  <Record line="7">
+    <BusinessUnit>256</BusinessUnit>
+    <PurchaseOrderNumber>605523</PurchaseOrderNumber>
+    <LineNumber>2</LineNumber>
+    <Quantity>316</Quantity>
+    <UnitPrice currency="USD">6.75</UnitPrice>
+    <Description>If you like tuna and tomato sauce- try combining the two. It's really not as bad as it sounds.</Description>
+  </Record>
+  <Record line="9">
+    <BusinessUnit>256</BusinessUnit>
+    <PurchaseOrderNumber>605523</PurchaseOrderNumber>
+    <LineNumber>3</LineNumber>
+    <Quantity>12.45</Quantity>
+    <UnitPrice currency="USD">1.11</UnitPrice>
+    <Description>The stranger officiates the meal.</Description>
+  </Record>
+  <Record line="10">
+    <BusinessUnit>256</BusinessUnit>
+    <PurchaseOrderNumber>605523</PurchaseOrderNumber>
+    <LineNumber>4</LineNumber>
+    <Quantity>98.07</Quantity>
+    <UnitPrice currency="USD">50</UnitPrice>
+    <Description>I really want to go to work, but I am too sick to drive.</Description>
+  </Record>
+  <Record line="11">
+    <BusinessUnit>123</BusinessUnit>
+    <PurchaseOrderNumber>456123</PurchaseOrderNumber>
+    <LineNumber>1</LineNumber>
+    <Quantity>12.56</Quantity>
+    <UnitPrice currency="USD">1</UnitPrice>
+    <Description>Everyone was busy, so I went to the movie alone.</Description>
+  </Record>
+  <Record line="12">
+    <BusinessUnit>123</BusinessUnit>
+    <PurchaseOrderNumber>456123</PurchaseOrderNumber>
+    <LineNumber>2</LineNumber>
+    <Quantity>32</Quantity>
+    <UnitPrice currency="USD">35</UnitPrice>
+    <Description>The mysterious diary records the voice.</Description>
+  </Record>
+  <Record line="13">
+    <BusinessUnit>123</BusinessUnit>
+    <PurchaseOrderNumber>987123</PurchaseOrderNumber>
+    <LineNumber>1</LineNumber>
+    <Quantity>1100</Quantity>
+    <UnitPrice currency="USD">0.65</UnitPrice>
+    <Description>Wow, does that work?</Description>
+  </Record>
+  <Record line="14">
+    <BusinessUnit>123</BusinessUnit>
+    <PurchaseOrderNumber>554466</PurchaseOrderNumber>
+    <LineNumber>1</LineNumber>
+    <Quantity>1</Quantity>
+    <UnitPrice currency="USD">3200</UnitPrice>
+    <Description>My Mum tries to be cool by saying that she likes all the same things that I do.</Description>
+  </Record>
+  <Record line="15">
+    <BusinessUnit>123</BusinessUnit>
+    <PurchaseOrderNumber>554466</PurchaseOrderNumber>
+    <LineNumber>2</LineNumber>
+    <Quantity>12</Quantity>
+    <UnitPrice currency="USD">5</UnitPrice>
+    <Description>She did her best to help him.</Description>
+  </Record>
+  <Record line="16">
+    <BusinessUnit>123</BusinessUnit>
+    <PurchaseOrderNumber>554466</PurchaseOrderNumber>
+    <LineNumber>3</LineNumber>
+    <Quantity>15</Quantity>
+    <UnitPrice currency="USD">10.35</UnitPrice>
+    <Description>Someone I know recently combined Maple Syrup &amp; buttered Popcorn thinking it would taste like caramel popcorn. It didn't and they don't recommend anyone else do it either.</Description>
+  </Record>
+  <Record line="17">
+    <BusinessUnit>123</BusinessUnit>
+    <PurchaseOrderNumber>554466</PurchaseOrderNumber>
+    <LineNumber>4</LineNumber>
+    <Quantity>6</Quantity>
+    <UnitPrice currency="USD">12</UnitPrice>
+    <Description>Last Friday in three week's time I saw a spotted striped blue worm shake hands with a legless lizard.</Description>
+  </Record>
+</File>
